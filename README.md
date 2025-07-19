@@ -1,167 +1,84 @@
+# MindWell – Mental Wellness Platform
 
-# MindWell
-
-MindWell is a mental wellness web application that helps users improve their mental health through meditation, mindfulness exercises, emotional support, and self-assessment tools. The platform provides personalized features for users to track and manage their mental health journey.
+MindWell is a full-stack web application designed to support mental wellness through guided meditation, mood tracking, sleep stories, journaling, and community resources.
 
 ## Features
 
-- **Meditation**: Access guided meditation sessions to improve mental clarity and focus.
+- **User Authentication:** Secure registration and login.
+- **Guided Meditation:** Curated meditation videos for mental clarity.
+- **Mood Tracker:** PHQ-9 assessment for daily mood and depression severity.
+- **Sleep Stories:** Relaxing audio tracks to improve sleep quality.
+- **Personal Journal:** Save and manage daily journal entries.
+- **Exercises:** Quick stress-relief and wellness exercises.
+- **Community Support:** Links to external mental health resources.
+- **Testimonials & Benefits:** Real user stories and app benefits.
 
-- **Mental Health Assessment**: Complete self-assessments like PHQ-9 to evaluate depression severity.
-
-- **Mindfulness**: Learn mindfulness techniques for stress relief and emotional balance.
-
-- **User Authentication**: Secure login and registration system with options to log out.
-
-
-
-
-
-                                                  
 ## Tech Stack
 
+- **Frontend:** React, Redux Toolkit, Tailwind CSS, DaisyUI, Framer Motion, Chart.js
+- **Backend:** Node.js, Express, MongoDB (Mongoose)
+- **Deployment:** Vercel
 
-- **Frontend**:
+## Getting Started
 
-    - React.js
-  - Tailwind CSS
-  - Framer Motion (for animations)
-  - Redux (for state management)
-  - React Router (for routing)
-  - React Icons (for icons)
+### Prerequisites
 
+- Node.js (v18+ recommended)
+- npm
 
-- **Backend**:
+### Installation
 
-   - Node.js
-  - Express
-  - MongoDB (for storing user data and assessments
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/mindwell.git
+   cd mindwell
+   ```
 
+2. **Install server dependencies:**
+   ```sh
+   cd server
+   npm install
+   ```
 
-- **Third-Party Libraries**:
+3. **Install client dependencies:**
+   ```sh
+   cd ../client
+   npm install
+   ```
 
-   - React Wrap Balancer (for text balancing)
-  - React Toastify (for toast notifications)
-  - Axios (for API requests)
+### Running Locally
 
+1. **Start the backend server:**
+   ```sh
+   cd server
+   npm start
+   ```
+   - Configure your `.env` file with `MONGO_URI`, `JWT_SECRET`, and `PORT`.
 
+2. **Start the frontend:**
+   ```sh
+   cd ../client
+   npm run dev
+   ```
 
+3. **Open [http://localhost:5173](http://localhost:5173) in your browser.**
 
+### Deployment
 
+- Both frontend and backend are configured for Vercel deployment.
+- See `vercel.json` files in `client/` and `server/` directories.
 
-## Installation
-
-
-**Prerequisites**
-
-Make sure you have the following installed:
-
-- **Node.js** (version 14 or above)
-- **MongoDB** or a MongoDB cluster URI
-- **Postman** (or any API testing tool)
-
-
-**Steps**
-
-Clone the repository:
-
-```bash
-git clone https://github.com/animesh156/mental-wellness-app.git
-
-```
-
-Backend Setup (Node.js/Express):
-
-1. Navigate to the backend folder:
-
-```bash
-cd server
+## Folder Structure
 
 ```
-
-2. Install the dependencies:
-
-```bash 
-npm Install
+client/      # React frontend
+server/      # Node.js/Express backend
+.github/     # CI/CD workflows
+README.md
 ```
-
-3. Create a .env file in the root of the project and add the following variables:
-
-```bash
-
-PORT=3000
-MONGO_URI=your_mongo_connection_uri
-JWT_SECRET
-
-
-```
-
-4. Start the server:
-
-``` 
-
-npm run server
-
-```
-
-
-
-
-Frontend Setup (React.js):
-
-1. Navigate to the frontend folder:
-
-```bash
-cd client
-
-```
-
-2. Install the dependencies:
-
-```bash 
-npm Install
-```
-
-
-3. Start the React Dev server:
-
-``` 
-
-npm run dev
-
-```
-## Usage
-
-- **User Authentication**: Sign up or log in to track your mental wellness.
-
-- **Mood Tracking**: Log your mood on a scale, track trends, and see visualizations.
-
-- **PHQ-9 Assessment**: Take the PHQ-9 test to evaluate your depression severity.
-
-- **Meditation**: Explore guided meditations for stress relief and mindfulness.
-
-- **Exercies**: Explore the exercises for stress relief
-
-- **Journal**: Write your personal journal about how you feeling today
-
--**Calm Audio**: Listen some calm & stress relief audios/ songs
-
 
 ## License
 
+This project is licensed under the ISC License.
 
-
-This project is licensed under the MIT License - see the [MIT](https://choosealicense.com/licenses/mit/) file for details.
-
-
-## Future Updates
-
-- **Real-time Emotional Support Chatbot**: Integrate a mental health AI chatbot that would provide real-time conversations and emotional support to users based on their input.
-
-- **Emotion Recognition from Video or Audio**: Use emotion recognition AI models to analyze users’ facial expressions or voice tone during video/audio assessments to determine emotional states.
-
-
-## Demo
-
-https://mental-wellness-iota.vercel.app/
-
+---
