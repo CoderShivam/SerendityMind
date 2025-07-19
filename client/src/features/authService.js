@@ -1,9 +1,9 @@
 import axios from 'axios'
 
-const registerRoute = "https://mental-wellness-backend.vercel.app/user/sign"
+const registerRoute = "https://serenditymind-backend.onrender.com/user/sign"
 
 
-const loginRoute =    "https://mental-wellness-backend.vercel.app/user/login"
+const loginRoute =    "https://serenditymind-backend.onrender.com/user/login"
 
 
 
