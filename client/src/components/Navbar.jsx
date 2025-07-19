@@ -39,7 +39,7 @@ function Navbar() {
       <div className="nav-container">
         <div className="nav-logo">
          
-         <p className="text-[#e576f1] text-xl font-bold" onClick={() => navigate("/")}>MindWell</p>
+         <p className="text-[#e576f1] text-xl font-bold" onClick={() => navigate("/")}>SerendityMind</p>
          
         </div>
 
