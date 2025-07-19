@@ -16,7 +16,7 @@ const PieChart = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`http://localhost:7643/phq9/result/${userId}`);
+        const response = await axios.get(`https://serenditymind-backend.onrender.com/phq9/result/${userId}`);
         const data = response.data.data;
 
         // Group data by severity
