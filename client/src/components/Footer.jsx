@@ -9,7 +9,7 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Logo or App Name */}
           <div className="text-center md:text-left">
-            <h2 className="text-2xl font-bold text-[#e576f1]">MindWell</h2>
+            <h2 className="text-2xl font-bold text-[#e576f1]">SerendityMind</h2>
             <p className="text-sm">Your partner in mental wellness</p>
           </div>
 
@@ -65,7 +65,7 @@ function Footer() {
 
         {/* Copyright Section */}
         <div className="text-center mt-6 text-sm border-t border-teal-200 dark:border-gray-700 pt-4">
-          © {new Date().getFullYear()} Animesh Rathore. All rights reserved.
+          © {new Date().getFullYear()} Shivam Gupta. All rights reserved.
         </div>
       </div>
     </footer>
