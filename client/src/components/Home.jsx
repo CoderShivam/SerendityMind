@@ -74,7 +74,7 @@ function Home() {
               transition={{ type: "spring", stiffness: 50, delay: 0.4 }}
               className="md:text-5xl font-extrabold text-2xl text-teal-400 md:font-bold mb-4"
             >
-              Transform Your Life with MindWell
+              Transform Your Life with SerendityMind
             </motion.h1>
           </Balancer>
 
