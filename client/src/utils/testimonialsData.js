@@ -2,7 +2,7 @@ export const testimonials = [
     {
         name:"Sarah Johnson",
         job: "Yoga Instructor",
-        review: "MindWell has completely transformed my approach to mental wellness. The guided meditations have helped me manage stress and anxiety effectively",
+        review: "SerendipityMind has completely transformed my approach to mental wellness. The guided meditations have helped me manage stress and anxiety effectively",
         shorthand: "SJ"
     },
 

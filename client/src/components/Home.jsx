@@ -30,7 +30,7 @@ function Home() {
       >
         <div className="text-center absolute text-black">
           <h1 className="md:text-6xl text-4xl font-extrabold">
-            Find Inner Peace with MindWell
+            Find Inner Peace with SerendipityMind
           </h1>
 
           <p className="md:text-xl text-md font-bold mt-6">
@@ -74,7 +74,7 @@ function Home() {
               transition={{ type: "spring", stiffness: 50, delay: 0.4 }}
               className="md:text-5xl font-extrabold text-2xl text-teal-400 md:font-bold mb-4"
             >
-              Transform Your Life with MindWell
+              Transform Your Life with SerendipityMind
             </motion.h1>
           </Balancer>
 

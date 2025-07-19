@@ -9,7 +9,7 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Logo or App Name */}
           <div className="text-center md:text-left">
-            <h2 className="text-2xl font-bold text-[#e576f1]">MindWell</h2>
+            <h2 className="text-2xl font-bold text-[#e576f1]">SerendipityMind</h2>
             <p className="text-sm">Your partner in mental wellness</p>
           </div>
 

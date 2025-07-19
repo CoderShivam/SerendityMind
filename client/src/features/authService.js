@@ -1,9 +1,9 @@
 import axios from 'axios'
 
-const registerRoute = "https://localhost:5000/user/register"
+const registerRoute = "https://serenditymind-backend.onrender.com/user/sign"
 
 
-const loginRoute =    "https://localhost:5000/user/login"
+const loginRoute =    "https://serenditymind-backend.onrender.com/user/login"
 
 
 
