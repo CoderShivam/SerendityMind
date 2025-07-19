@@ -30,7 +30,6 @@ function Testimonials() {
          
             Discover how SerendipityMind has transformed lives and improved mental
             wellness
-          
         </motion.p>
         </Balancer>
       </div>
