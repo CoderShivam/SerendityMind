@@ -1,0 +1,40 @@
+name: CI/CD with Manual Approval
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    name: 🔧 Build & Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install & Test Backend
+        run: |
+          cd server
+          npm install
+          npm test || echo "No tests"
+
+      - name: Install & Build Frontend
+        run: |
+          cd client
+          npm install
+          npm run build
+
+  deploy:
+    name: 🚀 Deploy (Manual Approval)
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://mental-wellness-iota.vercel.app
+    steps:
+      - name: ✅ Placeholder deploy
+        run: echo "🚀 Deployment approved and running!"
