@@ -27,10 +27,8 @@ function Testimonials() {
          {...animationSettings}
          transition={{ ...animationSettings.transition, delay: 0.4 }} 
          className="text-base md:text-lg text-gray-300  font-medium">
-         
-            Discover how MindWell has transformed lives and improved mental
+            Discover how SerendipityMind has transformed lives and improved mental
             wellness
-          
         </motion.p>
         </Balancer>
       </div>
