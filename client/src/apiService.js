@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const submitPHQ9 = async (userId, date, responses, token) => {
   const response = await axios.post(
-    "https://mental-wellness-backend.vercel.app/phq9/submit",
+    "https://serenditymind-backend.onrender.com/phq9/submit",
     { userId, date, responses },
     { headers: { Authorization: `Bearer ${token}` } }
   );
