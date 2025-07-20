@@ -16,6 +16,7 @@ const PieChart = ({ refresh }) => {
 
     const fetchData = async () => {
       try {
+
         const { data } = await axios.get(`https://serenditymind-backend.onrender.com/phq9/result/${userId}`);
         const items = data.data || [];
 
