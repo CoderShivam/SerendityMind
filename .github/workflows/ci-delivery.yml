@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: production
-      url: https://mental-wellness-iota.vercel.app
+      url: https://serenditymind-frontend.onrender.com/
     steps:
       - name: ✅ Placeholder deploy
         run: echo "🚀 Deployment approved and running!"
